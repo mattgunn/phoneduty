@@ -1,7 +1,7 @@
 {
     "_-x-vim-formatting": " vim: set ft=javascript ts=4 sw=4 et : ",
 
-    "name":        "Vend/Phoneduty",
+    "name":        "vend/phoneduty",
     "description": "Dynamically route incoming calls with Twilio & Pagerduty",
     "license":     "proprietary",
 
@@ -19,9 +19,9 @@
     },
 
     "require": {
-        "php": ">=5.3.8",
+        "php": "^7.0.0",
         "twilio/sdk": "dev-master",
-        "guzzlehttp/guzzle": "~4.0"
+        "guzzlehttp/guzzle": "*"
     },
 
     "config": {
